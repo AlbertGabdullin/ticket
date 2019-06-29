@@ -1,4 +1,4 @@
-var syntax        = 'sass'; // Syntax: sass or scss;
+var syntax        = 'scss'; // Syntax: sass or scss;
 
 var gulp          = require('gulp'),
 		gutil         = require('gulp-util' ),
@@ -37,6 +37,12 @@ gulp.task('styles', function() {
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/animatedModal/animatedModal.min.js',
+		'app/libs/onepagescroll/jquery.onepage-scroll.min.js',
+		'app/libs/tween/tweenMax.min.js',
+		'app/libs/tilt/tilt.jquery.min.js',
+		'app/libs/wow/wow.js',
+		'app/libs/validate/jquery.validate.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

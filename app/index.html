@@ -6,63 +6,381 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>OptimizedHTML 4</title>
+	<title>FUNTICKET | Инновационное билетное решение</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
+
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="path/to/image.jpg">
 	<link rel="icon" href="img/favicon/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
 	<!-- Template Basic Images End -->
-	
+
 	<!-- Custom Browsers Color Start -->
 	<meta name="theme-color" content="#000">
 	<!-- Custom Browsers Color End -->
 
-	<link rel="stylesheet" href="css/main.min.css">
+	<script>
+		if(location.hash !== ''){
+			location.href = location.origin;
+		}
+	</script>
 
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
-
-	<!-- Custom HTML -->
-
-	<div class="container">
-
-		<div class="row">
-
-			<div class="col-8 offset-2">
-				
-				<img class="img-responsive" src="img/preview.jpg" alt="Start HTML5 Template">
-
-				<br>
-
-				<h2>Welcome to startup HTML template OptimizedHTML 4!</h2>
-
-				<p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Ad distinctio animi, dolorum eaque praesentium unde aliquid, mollitia itaque voluptate quos modi et incidunt tempora fugiat voluptatum quia esse dolor repellat.</p>
-				<p>Nemo velit incidunt assumenda, eaque, sequi vitae facilis doloribus qui totam, fuga iure dignissimos ab non praesentium. Vitae similique, corrupti aliquam nam modi explicabo distinctio qui cum officia ullam quam!</p>
-				<p>Aperiam veritatis debitis quibusdam animi totam quos mollitia aspernatur porro consectetur id quod tempore numquam, ullam ex quae quasi voluptatem incidunt placeat asperiores quas autem! Labore modi quae nulla illo!</p>
-
-				<br>
-
-				<div class="row">
-
-					<div class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quo vero molestias, esse doloribus corrupti, nemo minus ullam tempore tenetur magni aut quos soluta sit adipisci eius expedita amet non.</div>
-					<div class="col-6">Odit enim harum minus nam excepturi quae vitae consectetur repudiandae natus neque ab asperiores repellat quo dicta vel accusamus voluptatum rerum autem eaque rem laudantium, sint veritatis. Minus, unde rem.</div>
-
+	<header>
+		<div class="container flexbox j-sb a-c">
+				<a href="/" class="logo">
+					<img src="img/logo.svg" alt="">
+					<span>Инновационное решение по работе с&nbsp;болельщиками</span>
+				</a>
+				<div class="navigation flexbox a-c">
+					<nav class="desktop">
+						<ul>
+							<li><a href="#2" data-index="2">Главная</a></li>
+							<li><a href="#4" data-index="4">Задачи</a></li>
+							<li><a href="#5" data-index="5">Выгоды</a></li>
+							<li><a href="#6" data-index="6">Применение</a></li>
+							<li><a href="#7" data-index="7">Попробовать</a></li>
+						</ul>
+					</nav>
+					<a href="tel:8(800)302-54-67" class="phone">8(800)302-54-67</a>
+					<a href="#9" data-index="9" class="button button--top">Связаться</a>
+					<div class="menu-btn"><span></span></div>
 				</div>
+				<nav class="mobile">
+					<ul>
+							<li><a href="#main" data-index="2">Главная</a></li>
+							<li><a href="#tasks" data-index="4">Задачи</a></li>
+							<li><a href="#benefits" data-index="3">Выгоды</a></li>
+							<li><a href="#application" data-index="5">Применение</a></li>
+							<li><a href="#try" data-index="7">Попробовать</a></li>
+					</ul>
 
-				<br>
-
-			</div>
-			
+					<a href="#formsection" class="button button--top">Связаться</a>
+				</nav>
 		</div>
+	</header>
+	<main>
+		<section id="#main" class="first-section">
+			<div class="logo__wrap">
+				<img src="img/logofun.png" alt="">
+			</div>
+			<a class="scroll-link" href="#second">
+				<span>SCROLL</span>
+				<svg width="30px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+					<path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:#fff;stroke-width:20px;opacity: 0.75;"/>
+					<path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:#fff;stroke-width:20px;opacity: 0.75;"/>
+				</svg>
+			</a>
 
+			<div class="swiper"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260px" height="45px">
+				<g id="dotted-line" class="dotted-line">
+					<circle cx="40" cy="22" r="3"></circle>
+					<circle cx="60" cy="22" r="3"></circle>
+					<circle cx="80" cy="22" r="3"></circle>
+					<circle cx="100" cy="22" r="3"></circle>
+					<circle cx="120" cy="22" r="3"></circle>
+					<circle cx="140" cy="22" r="3"></circle>
+					<circle cx="160" cy="22" r="3"></circle>
+					<circle cx="180" cy="22" r="3"></circle>
+					<circle cx="200" cy="22" r="3"></circle>
+					<circle cx="220" cy="22" r="3"></circle>
+				</g>
+				<path id="swipe-end" class="swipe-end" d="M9.000,1.000 C13.418,1.000 17.000,4.582 17.000,9.000 C17.000,13.418 13.418,16.999 9.000,16.999 C4.582,16.999 1.000,13.418 1.000,9.000 C1.000,4.582 4.582,1.000 9.000,1.000 Z"/>
+				<a id="swipe-btn" class="swipe-btn" xlink:href= "">
+				<g>
+					<path fill-rule="evenodd"  fill="rgb(246, 143, 13)" d="M22.000,0.001 C34.150,0.001 44.000,9.850 44.000,22.000 C44.000,34.150 34.150,44.000 22.000,44.000 C9.850,44.000 0.000,34.150 0.000,22.000 C0.000,9.850 9.850,0.001 22.000,0.001 Z"/>
+					<path id="swipe-arrow" class="arrow" fill-rule="evenodd" d="M12.551,8.707 L5.256,1.412 C4.270,0.426 2.672,0.426 1.686,1.412 C0.701,2.398 0.701,3.996 1.686,4.981 L7.197,10.492 L1.686,16.003 C0.701,16.988 0.701,18.587 1.686,19.572 C2.672,20.558 4.270,20.558 5.256,19.572 L12.551,12.276 C13.537,11.292 13.537,9.693 12.551,8.707 Z"/>
+				</g>
+				</a>
+			</svg>
+			</div>
+		</section>
+
+		<section id="main" class="section second-section">
+			<div class="container">
+				<div class="section__content flexbox j-c a-c">
+					<h2 class="section__content-title">Fun<span>Ticket</span>- Инновационное решение по работе с болельщиками. Способствует повышению продаж билетов и сувенирной продукции, а также росту популярности спортивного клуба в социальных сетях.</h2>
+				</div>
+			</div>
+		</section>
+
+		<section id="video-section" class="section vide-section">
+			<div class="container flexbox j-c a-c">
+				<div class="section__video">
+					<img src="img/tabl.png" alt="Видео">
+				</div>
+				<a class="play-button" href="#videoModal"></a>
+			</div>
+		</section>
+
+		<section id="tasks" class="section">
+			<div class="container">
+				<div class="section__content flexbox j-c a-c">
+					<h2 class="section__content-title">Не секрет, что спортивные клубы заинтересованы в повышении своей популярности и увеличении числа болельщиков. Как завовевать их сердца и поддержать преданность вашему клубу?
+						<br>
+						<br>
+						Fun<span>Ticket</span> помогает решать эти задачи!
+					</h2>
+				</div>
+			</div>
+		</section>
+		<section id="benefits" class="section section-3d">
+			<div class="container container--small">
+				<div class="section__content flexbox a-c fw-w">
+					<div class="section__content-left">
+						<div class="compose__img">
+							<div class="compose__img-back">
+									<img src="img/circle.png" class="desktop" alt="">
+									<img src="img/fan.png" class="mobile" alt="">
+							</div>
+							<div class="compose__img-front">
+								<img class="wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.6s" src="img/man.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="section__content-right">
+						<h2 class="section__content-title">
+								Почему это <span>выгодно</span>
+						</h2>
+						<ul>
+							<li class="wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="0.6s">Решаются вопросы клуба, связанные с увеличением продажи билетов и абонементов.</li>
+							<li class="wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="0.6s">Покупка билета происходит не только комфортно, но становится и самостоятельным развлечением. Положительные эмоции стимулируют к приобретению сувенирной продукции и повторной покупке билетов.</li>
+							<li class="wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="0.6s">Возможность дополнительного заработка для клуба за счет интегрирования в виртуальный тур спонсорской рекламы.</li>
+							<li class="wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="0.6s">Выполняет функции PR (взаимодействие с общественностью), помогает привлекать новую и удерживать имеющуюся аудиторию.</li>
+							<li class="wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="0.6s">Повышает эффективность рекламной кампании.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="application" class="section balls-section">
+			<div class="container flexbox a-c fw-w">
+				<div class="ball-wrap">
+				<h2 class="section__content-title"> <span>Сферы</span> реализации</h2>
+				<div class="ball-items flexbox j-sb a-c fw-w">
+					<a href="http://www.zenit-kazan.com/vrvolleycenter/" class="ball__item ball__item--active wow fadeInUp" target="_blank" data-wow-delay=".6s" data-wow-duration=".9s">
+						<div class="ball__item-img bounce wow" data-wow-duartion=".6s" data-wow-delay=".6s">
+							<img src="img/ball.png" alt="">
+						</div>
+						<div class="ball__item-name">
+							Волейбол
+						</div>
+						<div class="ball__item-info">
+							Готово на 100%
+						</div>
+					</a>
+
+					<a href="#formsection" class="ball__item wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".9s">
+						<div class="ball__item-img bounce wow gray" data-wow-duartion=".8s" data-wow-delay=".8s">
+							<img src="img/ball2.png" alt="">
+						</div>
+						<div class="ball__item-name">
+							Футбол
+						</div>
+						<div class="ball__item-info">
+							Стать первым
+						</div>
+					</a>
+
+					<a href="#formsection" class="ball__item wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".9s">
+						<div class="ball__item-img turn wow gray" data-wow-duartion="1s" data-wow-delay="1s">
+							<img src="img/hockey.png" alt="">
+						</div>
+						<div class="ball__item-name">
+							Хоккей
+						</div>
+						<div class="ball__item-info">
+							Стать первым
+						</div>
+					</a>
+
+					<a href="#formsection" class="ball__item wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".9s">
+						<div class="ball__item-img bounce wow gray" data-wow-duartion="1.2s" data-wow-delay="1.2s">
+							<img src="img/ball4.png" alt="">
+						</div>
+						<div class="ball__item-name">
+							Баскетбол
+						</div>
+						<div class="ball__item-info">
+							Стать первым
+						</div>
+					</a>
+
+					<a href="#formsection" class="ball__item wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".9s">
+						<div class="ball__item-img bounce wow gray" data-wow-duartion="1.4s" data-wow-delay="1.4s">
+							<img src="img/ball5.png" alt="">
+						</div>
+						<div class="ball__item-name">
+							Гандбол
+						</div>
+						<div class="ball__item-info">
+							Стать первым
+						</div>
+					</a>
+
+					<a href="#formsection" class="ball__item wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".9s">
+						<div class="ball__item-img bounce wow gray" data-wow-duartion="1.6s" data-wow-delay="1.6s">
+							<img src="img/ball6.png" alt="">
+						</div>
+						<div class="ball__item-name">
+							Хоккей с мячом
+						</div>
+						<div class="ball__item-info">
+							Стать первым
+						</div>
+					</a>
+				</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="try" class="section section-3d">
+			<div class="container">
+				<div class="section__content flexbox a-c fw-w">
+					<div class="section__content-left">
+						<div class="compose__img">
+							<div class="compose__img-back compose__img-back--second">
+									<img src="img/radius2.png" class="desktop" alt="">
+									<img src="img/bigman.png" class="mobile" alt="">
+							</div>
+							<div class="compose__img-front compose__img-front--second">
+								<img src="img/fun-shirt.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="section__content-right">
+						<h2 class="section__content-title">
+								Давайте <span>попробуем</span>
+						</h2>
+
+						<form class="form1">
+							<div class="group">
+								<input id="family" name="family" type="text" required>
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label class="group__label">Введите вашу фамилию</label>
+							</div>
+
+							<div class="group">
+								<input id="player" name="player" type="text" required>
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label class="group__label">Номер(от 0 до 99)</label>
+							</div>
+
+							<a id="modal__360-button" class="button white" href="#modal__360">Попробовать 360</a>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section big-img">
+			<div class="container">
+				<img src="img/bigradius.png" class="desktop" alt="">
+				<img src="img/radius.png" class="mobile" alt="">
+			</div>
+		</section>
+
+		<section class="section section-form">
+			<div class="container">
+				<div class="section__content flexbox a-c j-c fd-column">
+					<h2 class="section__content-title">
+						Получить <span>презентацию</span>
+					</h2>
+					<form id="formsection" class="main-form" autocomplete="off">
+						<div class="main-form__inputs">
+							<div class="group">
+								<input name="name" type="text" required>
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label class="group__label">ФИО:</label>
+							</div>
+							<div class="group">
+								<input name="phone" type="text" required>
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label class="group__label">Телефон:</label>
+							</div>
+							<div class="group">
+								<input name="email" type="email" required readonly onfocus="if (this.hasAttribute('readonly')) {this.removeAttribute('readonly');this.blur();    this.focus();  }">
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label class="group__label">E-mail:</label>
+							</div>
+							<div class="group">
+								<input name="club_name" type="text" required readonly onfocus="if (this.hasAttribute('readonly')) {this.removeAttribute('readonly'); this.blur();    this.focus();  }">
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label class="group__label">Название клуба:</label>
+							</div>
+							<div class="group">
+								<input name="role" type="text" required>
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label class="group__label">Занимаемая должность:</label>
+							</div>
+							<label class="flex-label">
+								<input type="hidden" name="agree1">
+								<input type="checkbox" class="checkbox" name="agree1">
+								<span class="checkbox-custom"></span>
+								<span class="label">Отправляя персональные данные, подтверждаю согласие на их <a href="/polytic.pdf" target="_blank">обработку</a></span>
+							</label>
+
+							<button type="submit" class="button white">Отправить</button>
+						</div>
+						<div class="main-form__footer">
+							<div class="main-form__footer-title">
+									©Fun<span>ticket, <span class="now-year"></span></span>
+							</div>
+							<div class="main-form__footer-links flexbox j-c a-c">
+								<a href="https://www.facebook.com/GlobalMedia360/" class="main-form__footer-link flexbox j-c a-c" target="_blank">
+									<img src="img/icon/facebook.svg" alt="">
+								</a>
+								<a href="https://www.instagram.com/360ticket.fun/" class="main-form__footer-link flexbox j-c a-c" target="_blank">
+									<img src="img/icon/instagram.svg" alt="">
+								</a>
+								<a href="https://www.youtube.com/channel/UCVfKget-7gGu8otM49rOwkA" class="main-form__footer-link flexbox j-c a-c" target="_blank">
+									<img src="img/icon/youtube.svg" alt="">
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<div class="video__modal animatedModal" id="videoModal" style="display: none;">
+		<div id="closebt-container" class="close-videoModal video__modal-close"></div>
+		<video id="video">
+			<source src="video/video.ogv" type='video/ogg; codecs="theora, vorbis"'>
+			<source src="video/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+			<source src="video/video.webm" type='video/webm; codecs="vp8, vorbis"'>
+		</video>
 	</div>
 
+	<div id="modal__360" class="modal__360 animatedModal" style="display: none;">
+			<div id="closebt-container" class="close-modal__360 video__modal-close video__modal-close--right"></div>
+			<div class="modal__360-content"></div>
+	</div>
+
+	<div class="success__modal">
+		<div class="success__modal-backdrop"></div>
+		<div class="success__modal-inner">
+				<div class="close__btn"></div>
+				<p>Ваше сообщение успешно отправлено!</p>
+		</div>
+	</div>
 	<script src="js/scripts.min.js"></script>
 
 </body>
